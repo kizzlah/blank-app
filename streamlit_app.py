@@ -22,7 +22,7 @@ st.markdown(
         font-family: 'Fira Mono', 'Monospace', 'Nerd Font', monospace !important;
     }
     .stApp {
-        background: linear-gradient(135deg, #18181b 0%, #23234a 100%);
+        background: linear-gradient(135deg, #18181b 0%, #1a102a 100%);
     }
     .block-container {
         background: #23234a;
@@ -78,7 +78,7 @@ if section.lower() == "about":
     st.header("about")
     st.markdown(
         """
-    <div style='padding:1.5rem;background:linear-gradient(135deg,#23234a 0%,#a5b4fc 70%,#c4b5fd 100%);border-radius:32px;box-shadow:0 8px 32px #10101a33;'>
+    <div style='padding:1.5rem;background:linear-gradient(135deg,#231a3a 0%,#3b2f5e 60%,#a5b4fc 100%);border-radius:32px;box-shadow:0 8px 32px #10101a33;border-top:4px solid #a5b4fc;border-left:4px solid #f472b6;'>
         welcome to my digital portfolio made with streamlit and python.<br>
         here you can find information about my projects, skills, and how to contact me.<br>
         if you get lost just use the arrow at the top left to open the menu bar.
@@ -91,7 +91,7 @@ elif section.lower() == "projects":
     st.header("projects")
     st.markdown(
         """
-    <div style='padding:1.5rem;background:linear-gradient(135deg,#23234a 0%,#a5b4fc 70%,#c4b5fd 100%);border-radius:32px;box-shadow:0 8px 32px #10101a22;'>
+    <div style='padding:1.5rem;background:linear-gradient(135deg,#231a3a 0%,#3b2f5e 60%,#a5b4fc 100%);border-radius:32px;box-shadow:0 8px 32px #10101a22;border-top:4px solid #a5b4fc;border-left:4px solid #f472b6;'>
         <ul style='list-style:none;padding-left:0;'>
         <li style='margin-bottom:1rem;'><span style='color:#f472b6;font-weight:bold;'>Project One</span>: Description of your first project.</li>
         <li style='margin-bottom:1rem;'><span style='color:#a5b4fc;font-weight:bold;'>Project Two</span>: Description of your second project.</li>
